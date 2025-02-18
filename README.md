@@ -3,7 +3,7 @@
 ## 📑 Sumário
 - [Objetivos do Projeto](#-objetivos-do-projeto)
 - [Funcionalidades Principais](#-funcionalidades-principais)
-- [Validações](#✔-validações)
+- [Validaçoes](#✔-validaçoes)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Como Executar](#-como-executar)
 - [Autor](#-autor)
