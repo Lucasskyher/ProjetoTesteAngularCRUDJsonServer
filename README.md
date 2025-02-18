@@ -1,12 +1,12 @@
 # Controle de Investimentos
 
 ## 📑 Sumário
-- [Objetivos do Projeto](#🎯-objetivos-do-projeto)
-- [Funcionalidades Principais](#🔥-funcionalidades-principais)
-- [Validações](#✔️-validações)
-- [Tecnologias Utilizadas](#🛠-tecnologias-utilizadas)
-- [Como Executar](#💻-como-executar)
-- [Autor](#👥-autor)
+- [Objetivos do Projeto](#-objetivos-do-projeto)
+- [Funcionalidades Principais](#-funcionalidades-principais)
+- [Validações](#✔-validações)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Como Executar](#-como-executar)
+- [Autor](#-autor)
 
 
 ## 🎯 Objetivos do Projeto
