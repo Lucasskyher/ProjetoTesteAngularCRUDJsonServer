@@ -1,0 +1,11 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+a:hover{
+    color: rgba(0, 53, 168, 0.753);
+}

@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "id": 3,
+      "name": "Tesouro Selic 2029",
+      "type": "Título",
+      "value": 5000,
+      "date": "2023-12-20"
+    },
+    {
+      "id": 4,
+      "name": "Lucas",
+      "type": "65665",
+      "value": 666,
+      "date": "2025-02-04"
+    },
+    {
+      "id": 5,
+      "name": "Teste1",
+      "type": "Teste1",
+      "value": 666,
+      "date": "2025-02-18"
+    },
+    {
+      "id": 6,
+      "name": "sss",
+      "type": "sss",
+      "value": 6,
+      "date": "2025-02-05"
+    },
+    {
+      "id": 7,
+      "name": "Teste5",
+      "type": "Teste5",
+      "value": 8465454,
+      "date": "2025-02-02"
+    }
+  ]
+}

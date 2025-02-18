@@ -1,0 +1,13 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    margin-left: 55px;
+    width: 25%;
+}
+
+.cor-thead {
+    background-color: #4CAF50; /* Substitua pelo código da cor que você deseja */
+    color: white; /* Ajuste a cor do texto se necessário */
+}

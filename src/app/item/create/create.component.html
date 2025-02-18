@@ -1,0 +1,49 @@
+<div class="container mt-4 pt-4">
+    <form (ngSubmit)="create()" #investmentForm="ngForm">
+        
+        <!-- Nome do Investimento -->
+        <div class="form-group">
+            <label for="name">Nome do Investimento</label>
+            <input type="text" class="form-control" name="name" [(ngModel)]="item.name" id="name" placeholder="Digite o nome do investimento" required minlength="3" #name="ngModel" />
+            <!-- Erro para Nome -->
+            <div *ngIf="name.invalid && name.touched" class="error-message">
+                <small *ngIf="name.errors?.['required']">O nome é obrigatório.</small>
+                <small *ngIf="name.errors?.['minlength']">O nome deve ter no mínimo 3 caracteres.</small>
+            </div>
+        </div>
+
+        <!-- Tipo do Investimento -->
+        <div class="form-group">
+            <label for="type">Tipo do Investimento</label>
+            <input type="text" class="form-control" name="type" [(ngModel)]="item.type" id="type" placeholder="Digite o tipo" required #type="ngModel" />
+            <div *ngIf="type.invalid && type.touched" class="error-message">
+                <small *ngIf="type.errors?.['required']">O tipo é obrigatório.</small>
+            </div>
+        </div>
+
+        <!-- Valor Investido -->
+        <div class="form-group">
+            <label for="value">Valor Investido</label>
+            <input type="number" class="form-control" name="value" [(ngModel)]="item.value" id="value" placeholder="Digite o valor" min="0.01" required #value="ngModel" />
+            <div *ngIf="value.invalid && value.touched" class="error-message">
+                <small *ngIf="value.errors?.['required']">O valor investido é obrigatório.</small>
+                <small *ngIf="value.errors?.['min']">O valor investido deve ser maior que 0.</small>
+            </div>
+        </div>
+
+        <!-- Data do Investimento -->
+        <div class="form-group">
+            <label for="date">Data do Investimento</label>
+            <input type="date" class="form-control" name="date" [(ngModel)]="item.date" id="date" placeholder="Data do investimento" [max]="hoje" required #date="ngModel" />
+            <div *ngIf="date.invalid && date.touched" class="error-message">
+                <small *ngIf="date.errors?.['required']">A data é obrigatória.</small>
+                <small *ngIf="date.errors?.['max']">A data não pode ser no futuro.</small>
+            </div>
+        </div>
+
+        <!-- Botões -->
+        <br>
+        <button type="submit" class="btn btn-primary" [disabled]="investmentForm.form.invalid">Cadastrar</button>
+        <button type="button" (click)="cancel()" class="btn btn-danger">Cancelar</button>
+    </form>
+</div>
