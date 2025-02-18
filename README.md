@@ -6,7 +6,7 @@
 - [Validações](#-validacoes)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Como Executar](#-como-executar)
-- [Autor](#-autores-e-contato)
+- [Autor](#-autor)
 
 
 ## 🎯 Objetivos do Projeto
