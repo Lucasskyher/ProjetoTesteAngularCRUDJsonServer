@@ -3,7 +3,7 @@
 ## 📑 Sumário
 - [Objetivos do Projeto](#-objetivos-do-projeto)
 - [Funcionalidades Principais](#-funcionalidades-principais)
-- [Validar](#-validar)
+- [Validações](#-validações)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Como Executar](#-como-executar)
 - [Autor](#-autor)
@@ -18,7 +18,7 @@ Este é um sistema para cadastro, atualização e visualização de investimento
 - *Excluir investimentos*: Remover investimentos da lista.
 - *Visualizar lista de investimentos*: Exibir todos os investimentos cadastrados com a possibilidade de realizar ações de edição e remoção.
 
-## Validar
+## 🔥 Validações
 - *Nome do Investimento*: O nome do investimento deve ter pelo menos 3 caracteres. Caso contrário, o usuário receberá uma mensagem de erro.
 - *Tipo de Investimento*: O tipo do investimento é obrigatório e não pode ser deixado em branco.
 - *Valor Investido*: O valor investido deve ser maior que 0, garantindo que o usuário insira um valor válido para o investimento.
