@@ -1,27 +1,52 @@
-# ProjetoTeste
+# Controle de Investimentos
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.11.
+## 📑 Sumário
+- [Objetivos do Projeto](#-objetivos-do-projeto)
+- [Funcionalidades Principais](#-funcionalidades-principais)
+- [Validações](#-validacoes)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Como Executar](#-como-executar)
+- [Autor](#-autores-e-contato)
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🎯 Objetivos do Projeto
+Este é um sistema para cadastro, atualização e visualização de investimentos, onde é possível cadastrar novos investimentos, editar e excluir investimentos existentes, e visualizar uma lista de investimentos registrados
 
-## Code scaffolding
+## 🔥 Funcionalidades Principais
+- *Cadastrar novos investimentos*: Inserir informações como nome, tipo, valor investido e data do investimento.
+- *Editar investimentos existentes*: Atualizar informações de investimentos cadastrados.
+- *Excluir investimentos*: Remover investimentos da lista.
+- *Visualizar lista de investimentos*: Exibir todos os investimentos cadastrados com a possibilidade de realizar ações de edição e remoção.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## ✔️ Validações
+- *Nome do Investimento*: O nome do investimento deve ter pelo menos 3 caracteres. Caso contrário, o usuário receberá uma mensagem de erro.
+- *Tipo de Investimento*: O tipo do investimento é obrigatório e não pode ser deixado em branco.
+- *Valor Investido*: O valor investido deve ser maior que 0, garantindo que o usuário insira um valor válido para o investimento.
+- *Data do Investimento*: A data do investimento não pode ser no futuro. O sistema valida a data inserida e assegura que o investimento tenha sido feito em uma data válida.
 
-## Build
+## 🛠 Tecnologias Utilizadas:
+- *Frontend*: O front-end do sistema foi desenvolvido utilizando Angular, oferecendo uma interface interativa e fácil de usar.
+- *Estilo*: Foi utilizado Bootstrap para garantir um design responsivo e atraente, com componentes prontos para facilitar o desenvolvimento da interface.
+- *Backend*: Para o backend, um servidor JSON foi configurado para realizar as operações de CRUD (Create, Read, Update, Delete) dos investimentos.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 💻 Como Executar:
+- *Instalação do JSON Server*: Primeiro, instale o JSON Server globalmente na sua máquina com o seguinte comando:
+```sh
+npm install -g json-server
+```
+- *Iniciar o JSON Server*: Para iniciar o servidor back-end e simular um banco de dados, execute o seguinte comando:
+```sh
+json-server --watch db.json --port 3000
+```
+- *Instalar as Dependências*: No diretório do seu projeto Angular, instale as dependências necessárias, incluindo o HttpClientModule para interagir com o JSON Server:
+```sh
+npm install
+```
+- *Inicar Servidor Angular*: Eexecute o seguinte comando no diretório do projeto:
+```sh
+ng serve
+```
+Isso iniciará o front-end na URL http://localhost:4200.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 👥 Autor
+O Aplicativo Controle de Investimentos foi criado por Lucas Silva Pinheiro.
