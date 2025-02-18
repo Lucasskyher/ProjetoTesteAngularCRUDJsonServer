@@ -38,6 +38,7 @@ npm install -g json-server
 ```sh
 json-server --watch db.json --port 3000
 ```
+Isso iniciará o back-end na URL http://localhost:3000.
 - *Instalar as Dependências*: No diretório do seu projeto Angular, instale as dependências necessárias, incluindo o HttpClientModule para interagir com o JSON Server:
 ```sh
 npm install
